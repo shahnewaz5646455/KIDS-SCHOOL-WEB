@@ -1,0 +1,193 @@
+@media only screen and (max-width: 390px) {
+    .card-pr1{
+        display: none;
+    }
+    .card-pr-res1,.card-pr-res2{
+        display: block;
+    }
+    .curriculum{
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .curriculum-img{
+        width: 67px;
+        height:61px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .card-title{
+        margin-top: 10px;
+    }
+    .our-story{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .story-cards{
+        display: grid;
+        grid-area: 
+        "pr2 pr3"
+        "pr4 pr5"
+        "res1 res2"
+        ;
+        gap: 5px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .story-card{
+        width: 173.09px;
+        height: 179.59px;
+        border-radius: 9.53px;
+        
+        
+    }
+    .viewall-contaiter{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .story-card-title{
+        font-size: 9.13px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .story-img{
+        border-radius: 9.53px 9.53px 0 0;
+    }
+    
+    /* for cariculum */
+    .curriculum-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        place-items: center; 
+    }
+    .btn-containter{
+        display: none;
+    }
+    .curriculum-title{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .card{
+        width: 340px;
+        height: 250px;
+    }
+    main{
+        background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+        width: 100%;
+        height: 250vh;
+        background-size: cover;
+        background-position: center;  
+        background-size: contain; /* Adjust as needed */
+        
+        
+    }
+    .curriculum-title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+    /* banner css for mobile */
+   
+    .banner-content{
+        order: 1;
+    }
+   .img-container{
+        order: 0;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-title{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .img-container{
+        width: 241px;
+    }
+    .banner-description{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* all nav bar design */
+    .brand,.nav-links,.cnt-btn{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .navbar{
+        max-width: 340px;
+        margin: 0 auto;
+       
+    }
+    .line{
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        /* Orange */
+        border: 0.5px solid rgb(254, 163, 1);
+        margin: -30px 0px 0 0;
+    }
+    .banner{
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    /* footer responsive design */
+
+    .footer-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 0px;
+    }
+    .footer-card .card1{
+        width: 290px;
+        height: 159px;
+        margin-left: 0px;
+    }
+    .footer-card .card2{
+        width: 300px;
+        height: 159px;
+     
+    }
+    .small-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: start;
+    }
+    .footer-card .card2 ul li .nav-link{
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 0.9rem;
+        font-weight: 500;
+        
+        
+    }
+    .card2-ul{
+        margin-top: 10px;
+    }
+    .card2-ul li{
+        line-height: 20px;
+    }
+
+
+
+
+
+
+  }
+
+
+

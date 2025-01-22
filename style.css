@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.display-none{
+    display: none;
+}
+/* shared styles */
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.mt{
+    margin-top: 30px;
+}
+.display-flex{
+    display: flex;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* nav css style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar{
+    max-width: 834px;
+    margin: 0 auto;
+}
+.logo-img{
+    width: 44px;
+    height: 44px;
+}
+.brand{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+}
+.i2{
+    color: rgb(1, 172, 253);
+}
+.i3{
+    color: rgb(5, 212, 223);
+}
+.i4{
+    color: rgb(93, 88, 239);
+}
+.cnt-btn{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: none;
+    width: 140px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+/* banner all css here   */   
+    
+.banner{
+    max-width: 834px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    place-items: center;  
+}
+.banner-title{
+    font-family: Quicksand;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 17px;
+
+}
+.banner-description{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+.btn-primary{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: none;
+    width: 140px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+
+    /* Black */
+    background: rgb(17, 17, 17);
+}
+.part-y{
+    color:rgb(254, 163, 1);
+    
+}
+.part-s{
+    color:rgb(1, 172, 253);
+}
+.img-container{
+    width: 336px;
+}
+.banner-image{
+    width: 110%;
+}
+
+/* standard curriculam section */
+main{
+    z-index: 1;
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 70%);
+    width: 100%;
+    height: 200vh;
+    background-size: cover;
+    background-position: center;  
+    
+}
+.curriculum-title{
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 57px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 2.07rem;
+    font-weight: 700;
+}
+.curriculum{
+    max-width: 834px;
+    margin: 0 auto;
+}
+.curriculum-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    place-items: center; 
+}
+.card{
+    width: 264px;
+    height: 343px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+}
+.curriculum-img{
+    width: 94px;
+    height:80px;
+    margin-top: 46px;
+    margin-bottom: 23px;
+}
+.treament{
+    width: 82px;
+    height:80px;
+    margin-top: 46px;
+    margin-bottom: 23px;
+}
+.card-title{
+    margin-top: 24px;
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 1.1034rem;
+    font-weight: 700;
+}
+.card-description{
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: rgb(128, 128, 128);
+    font-size: 0.67rem;
+    font-weight: 500;
+}
+.read-more{
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 0.67rem;
+    font-weight: 700;
+}
+.bt2{
+    color: rgba(250, 22, 136, 0.789);
+    font-family: Quicksand;
+    font-size: 0.67rem;
+    font-weight: 700;
+
+}
+.bt3{
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 0.67rem;
+    font-weight: 700;
+}
+.cd2{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.cd3{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-btn{
+    border-radius: 50%;
+    background-color: orange;
+    border: none;
+    padding: 20px 25px;
+}
+.btn-containter{
+    margin-top: 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* all css for our story */
+.our-story{
+    max-width: 834px;
+    margin: 0 auto;
+    z-index: 5;
+    
+}
+
+
+.story-card{
+    width: 209px;
+    height: 217px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(51, 56, 56, 0.105);
+    background-color: white;
+    
+}
+.story-img{
+    
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+
+}
+.story-btn{
+    
+    width: 125px;
+    height: 27px;
+    border-radius: 47.93px;
+    color: white;
+    border: none;
+    font-size: 0.69rem;
+    background: rgb(149, 178, 38);
+}
+.story-btn-container{
+    margin-top:-18px ;
+    margin-left: 10px;
+}
+.story-card-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 0.69rem;
+    font-weight: 700;
+    margin: 10px 38px 23px 26px;
+}
+.card-pr1{
+    grid-area: primary;
+    width: 388px;
+    height: 453px;
+}
+.card-pr2{
+    grid-area: pr2;
+}
+.card-pr3{
+    grid-area: pr3;
+}
+.card-pr4{
+    grid-area: pr4;
+}
+.card-pr5{
+    grid-area: pr5;
+}
+.card-pr-res1{
+    grid-area: res1;
+}
+.card-pr-res2{
+    grid-area: res2;
+}
+
+.story-cards{
+    display: grid;
+    grid-template-areas: 
+    "primary  pr2 pr3"
+    "primary  pr4 pr5"
+    "primary  res1 res2"
+    
+    ;
+    gap: 13px;
+}
+.story-card-title-main{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1.08rem;
+    font-weight: 700;
+    margin-left: 27px;
+    margin-top: 43px;
+    
+}
+
+.story-description{
+    color: rgb(102, 102, 102);
+    font-size: 0.69rem;
+    font-weight: 500;
+    margin-left: 27px;
+    margin-top: 36px;
+    margin-right: 48px;
+}
+
+.card-pr1 .story-btn{
+    background: rgb(60, 216, 232);
+}
+.card-pr3 .story-btn{
+    background: rgb(93, 88, 240);
+}
+.story-title{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 2.07rem;
+    font-weight: 700;
+    margin-top: 43px;
+    margin-bottom: 57px;
+}
+
+.viewall-contaiter {
+    justify-content: center;
+    align-items: center;
+    margin-top: 57px;
+    margin-bottom: 43px;
+}
+.viewall-btn{
+    border-radius: 12px;
+
+    /* Black */
+    background: rgb(17, 17, 17);
+    width: 141px;
+    height: 36px;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none;
+}
+
+/* footer all style is here ...... */
+
+.footer-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 0px;
+}
+.footer-card .card1{
+    width: 290px;
+    height: 159px;
+    margin-left: 30px;
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 30px;
+    font-weight: 700;
+}
+footer{
+    background: rgb(1, 172, 253);
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo-container{
+    width: 70px;
+}
+.footer-logo{
+    width: 100%;
+}
+.para{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.footer-card .card2{
+    width: 300px;
+    height: 159px;
+ 
+}
+.footer-card .card2 ul li .nav-link{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+.footer-link{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.08rem;
+    font-weight: 700;
+}
+
+.footer-card .card2 .nav-links{
+    margin-top: 23px;
+    
+}
+.card2-ul{
+    margin-top:20px;
+}
+.card2-ul .nav-item{
+    margin-top: 7px;
+}
+.footer-card .card3{
+    width: 300px;
+    height: 159px;
+}
+.footer-card .card3 .icons{
+    gap: 10px;
+}
+.footer-card .card3 .footer-link-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.17rem;
+    font-weight: 700;
+    margin-bottom: 23px;
+    
+}
+.small-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
+.footer-container{
+    max-width: 834px;
+    margin: 0 auto;
+}
