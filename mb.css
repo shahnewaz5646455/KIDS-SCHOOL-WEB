@@ -1,6 +1,12 @@
-@media only screen and (max-width: 390px) {
+@media (min-width: 360px) and (max-width: 440px) {
     .card-pr1{
         display: none;
+    }
+    body, html {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
     .card-pr-res1,.card-pr-res2{
         display: block;
@@ -68,25 +74,23 @@
         font-size: 26px;
         font-weight: 700;
     }
-    .card{
-        width: 340px;
+    .card {
+        width: 100%; /* Adjust width to be responsive */
+        max-width: 340px; /* Maintain max width */
         height: 250px;
     }
     main{
         background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
         width: 100%;
-        height: 250vh;
+        height: auto;
+        padding: 50px 20px;
         background-size: cover;
         background-position: center;  
         background-size: contain; /* Adjust as needed */
+        box-sizing: border-box;
         
         
     }
-    .curriculum-title{
-        font-size: 20px;
-        font-weight: 700;
-    }
-
 
     /* banner css for mobile */
    
@@ -101,10 +105,14 @@
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
         align-items: center;
+        width: 100%;
+        padding: 0 20px; /* Add padding to the left and right */
+        box-sizing: border-box;
     }
     .banner-title{
+        
         text-align: center;
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 700;
     }
     .banner-content{
@@ -113,9 +121,12 @@
     .img-container{
         width: 241px;
     }
-    .banner-description{
+    .banner-description {
+        width: 100%;
         font-size: 14px;
         font-weight: 500;
+        padding: 0 10px; /* Add padding to the left and right */
+        box-sizing: border-box; /* Ensure padding is included in the element's total width */
     }
     /* all nav bar design */
     .brand,.nav-links,.cnt-btn{
@@ -140,6 +151,7 @@
     .banner{
         max-width: 340px;
         margin: 0 auto;
+        
     }
 
     /* footer responsive design */
@@ -156,6 +168,7 @@
         width: 290px;
         height: 159px;
         margin-left: 0px;
+        margin-bottom: 20px;
     }
     .footer-card .card2{
         width: 300px;
@@ -180,6 +193,10 @@
     }
     .card2-ul li{
         line-height: 20px;
+    }
+    .story-title{
+        font-size: 26px;
+        font-weight: 700;
     }
 
 
